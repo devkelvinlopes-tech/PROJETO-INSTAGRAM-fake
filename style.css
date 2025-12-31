@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 60px;
+}
+
+.img-right{
+    width: 500px;
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 150px;
+}
+
+.right{
+    display: inline-block;
+}
+.left{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.logo{
+    width: 200px;
+    margin-bottom: 40px;
+    display: inline-block;
+    margin-left: 30px;
+}
+ .password, .email, .entrar{
+    width: 270px;
+    height: 30px;
+    background-color: #eee;
+    border-radius: 3px;
+    margin: 5px;
+    border: 1px solid #666;
+
+   
+ }
+
+ input:focus{
+    outline: none;
+ }
+
+ .entrar{
+    background-color: rgba(74, 93, 249, 0.7);
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 30px ;
+ }
+
+ .sessao{
+    padding-top: 70px;
+    color: #1956cf;
+    font-weight: bold;
+    text-decoration: none;
+    
+ }
+
+ .facebook{
+    width: 40px;
+ }
+
+ .esquecer{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    
+ }
+
+ .esquecer:hover{
+    text-decoration: underline;
+ }
+
+ .registra{
+    font-weight: 600;
+    text-decoration: none;
+ }
+
+ footer{
+    
+    margin-top: 90px;
+    align-items: center;
+    color: #666;
+    margin-left: 120px;
+ }
+
+ footer a {
+    text-decoration: none;
+    color:#666 ;
+    padding: 6px;
+    font-size: 12px;
+    
+ }
+
+ footer a:hover{
+    text-decoration: underline;
+ }
+
+ .created{
+    margin-left: 380px;
+
+ }
