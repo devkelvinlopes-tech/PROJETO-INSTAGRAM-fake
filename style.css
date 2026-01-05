@@ -10,7 +10,7 @@
 .img-right{
     width: 500px;
     display: inline-block;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-right: 150px;
 }
 
@@ -103,5 +103,111 @@
 
  .created{
     margin-left: 380px;
+
+ }
+
+
+ @media  screen and (max-width:940px) {
+
+   *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  .container{
+      margin-top: 60px;
+  }
+
+  .right{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+
+   }
+
+   .img-right{
+      display: none;
+      
+  }
+
+  .logo{
+   width: 200px;
+   margin-bottom: 20px;
+   display: inline-block;
+   margin-left: 20px;
+}
+
+
+br {
+   display: none;
+}
+
+.sessao{
+   padding-top: 0px;
+   color: #1956cf;
+   font-weight: bold;
+   text-decoration: none;
+   margin-bottom: 20px;
+   
+   
+}
+
+.facebook{
+   width: 40px;
+   margin-top: 30px;
+   
+}
+
+.esquecer{
+   color: #000;
+   font-weight: bold;
+   text-decoration: none;
+   margin-bottom: 50px;
+  }
+
+  .created{
+   margin: 50px;
+   margin-left: 20px;
+
+}
+footer{
+    
+   margin-top: 90px;
+   align-items: center;
+   color: #666;
+   margin-left: 10px;
+}
+
+ }
+
+ @media  screen and (min-width:941px) and (max-width:1133px){
+
+   *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  .container{
+      margin-top: 60px;
+  }
+  
+  .img-right{
+      width: 500px;
+      display: inline-block;
+      margin-left: 30px;
+      margin-right: 10px;
+  }
+
+
+
+
+
+
+
+
+
 
  }
